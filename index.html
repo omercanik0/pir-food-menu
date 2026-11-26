@@ -360,8 +360,8 @@
 
     <div class="container">
       <div class="nav-tabs">
-        <button id="nav-home" onclick="switchTab('home')" class="nav-btn">ANA SAYFA</button>
-        <button id="nav-menu" onclick="switchTab('menu')" class="nav-btn active">MENÜMÜZ</button>
+        <button id="nav-home" onclick="switchTab('home')" class="nav-btn active">ANA SAYFA</button>
+        <button id="nav-menu" onclick="switchTab('menu')" class="nav-btn">MENÜMÜZ</button>
         <button id="nav-contact" onclick="switchTab('contact')" class="nav-btn">İLETİŞİM</button>
       </div>
 
@@ -383,7 +383,7 @@
   </header>
 
   <!-- 1. ANA SAYFA -->
-  <section id="tab-home" class="container hidden">
+  <section id="tab-home" class="container">
     <div class="hero-card">
       <img
         src="images/banner-ana.jpg"
@@ -406,7 +406,7 @@
   </section>
 
   <!-- 2. MENÜMÜZ -->
-  <section id="tab-menu" class="container">
+  <section id="tab-menu" class="container hidden">
     <input type="text" id="search-input" oninput="handleSearch()" placeholder="Menüde ürün ara (ör. Ordu Tostu, Smash Burger, Tantuni)..." class="search-box" />
     <div id="accordion-container" class="accordion-list"></div>
   </section>
